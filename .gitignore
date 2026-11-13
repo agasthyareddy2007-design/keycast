@@ -1,0 +1,38 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+Cargo.lock.orig
+
+# Compiled binaries and debug files
+*.exe
+*.dll
+*.pdb
+*.d
+*.res
+*.obj
+*.lib
+
+# Release packages and archives
+*.zip
+*.7z
+*.tar.gz
+
+# Security - Private keys and certificates
+# Note: Public .cer certificates may be tracked, but private .pfx must NEVER be committed.
+*.pfx
+*.p12
+*.key
+
+# Distribution build output
+/dist/
+
+# Temporary / testing directories
+test_install/
+.codex/
+.transfer-helper/
+
+# OS metadata
+Thumbs.db
+[Ee]hthumbs.db
+Desktop.ini
+.DS_Store
